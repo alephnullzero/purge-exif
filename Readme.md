@@ -1,6 +1,6 @@
-# Purge-Exif-Exiftool
+# Purge-Exif
 
-This program is designed for Termux, and will purge all of your exif metadata from your pictures and videos.
+This utility is designed for Termux. It will purge all exif metadata from all pictures and videos.
 
 ## Installation
 1. Install termux
@@ -11,3 +11,4 @@ This program is designed for Termux, and will purge all of your exif metadata fr
 1. Install perl: `pkg install perl`
 1. Download exiftool by Phil Harvey from his site. Follow the Readme to install exiftool
 1. Create a soft link of `purge-exif.bash` to `~/.shortcut`. You can run `purge-exif` right from a widget.
+
